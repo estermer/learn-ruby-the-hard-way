@@ -18,6 +18,7 @@ puts "Roosters #{100 - 25 * 3 % 4}"
 puts "Now I will count the eggs:"
 
 # since there is no string, #{} is not required for evaluating the expression
+# % is not a percent but a modulus which returns the remainder of the division of the two numbers
 puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 
 puts "Is it true that 3 + 2 < 5 - 7?"
@@ -35,3 +36,12 @@ puts "How about some more."
 puts "Is it greater? #{5 > -2}"
 puts "Is it greater or equal? #{ 5 >= -2}"
 puts "Is is less or equal? #{5 <= -2}"
+
+# these are going to round to 1
+# since there are only whole numbers we need "floating point" numbers
+puts 3 / 2
+puts 8 / 5
+
+# to get floating point number as result we need them in the equation
+puts 3.0 / 2
+puts 8 / 5.0
