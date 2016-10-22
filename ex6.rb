@@ -21,5 +21,5 @@ puts joke_evaluation
 w = "This is the left side off..."
 e = "a string with a right side."
 
-# we can even do adding of strings 
+# we can even do adding of strings s
 puts w + e
