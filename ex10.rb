@@ -11,6 +11,7 @@ I'll do a list:
 \t* Fishies
 \t* Catnip\n\t* Grass
 """
+# You need double quotes to use the \n or other escape sequence
 
 puts tabby_cat
 puts persian_cat
