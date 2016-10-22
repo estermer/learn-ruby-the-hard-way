@@ -13,3 +13,5 @@ number = another.to_i
 
 smaller = number / 100
 puts "A smaller number is #{smaller}"
+
+# to_f will change a string to a floatiing number
